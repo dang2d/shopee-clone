@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assests/css/font-awesome.css">
+    <link rel="stylesheet" href="./assests/css/grid.css">
+    <link rel="stylesheet" href="./assests/css/main.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <header class="header f-16">
+            <div class="grid wide">
+
+                <!-- Navigation bar -->
+                <nav class="navbar row f-15 b-300">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--separate navbar__item-qr--show">
+                            <a href="#">Vào cửa hàng trên ứng dụng</a>
+
+                            <!-- QR Code download App -->
+                            <div class="navbar__item-qr">
+                                <img src="./assests/img/app-qr.png" alt="QR code vào cửa hàng">
+                                <div class="qr__download">
+                                    <a href="#">
+                                        <img src="./assests/img/google-play.png" alt="Google Play">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./assests/img/app-store.png" alt="App Store">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- End QR Code -->
+
+                        </li>
+                        <li class="navbar__item">
+                            Kết nối
+                            <a href="#">
+                                <i class="f-16 fab fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="f-16 fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item-noti">
+                            <a href="#">
+                                <i class="f-16 fas fa-bell"></i>
+                                Thông báo
+                            </a>
+
+                            <!-- Notification Container -->
+                            <div class="navbar__noti">
+                                <header class="navbar__noti-header">
+                                    <h3 class="b-300 f-14">Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="navbar__noti-list">
+                                    <li class="navbar__noti-item navbar__noti-item--unread">
+                                        <a href="#" class="navbar__noti-link">
+                                            <img src="./assests/img/product-1.jpg" alt="">
+                                            <div class="navbar__noti-desc">
+                                                <h3 class="b-400 f-14">Xác thực chính hãng nguồn gốc các sản phẩm Ohui</h3>
+                                                <p class="f-12">Cras ultricies ligula sed magna dictum porta. Nulla porttitor accumsan tincidunt</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__noti-item navbar__noti-item--unread">
+                                        <a href="#" class="navbar__noti-link">
+                                            <img src="./assests/img/product-2.jpg" alt="">
+                                            <div class="navbar__noti-desc">
+                                                <h3 class="b-400 f-14">Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa</h3>
+                                                <p class="f-12">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__noti-item">
+                                        <a href="#" class="navbar__noti-link">
+                                            <img src="./assests/img/product-3.jpg" alt="">
+                                            <div class="navbar__noti-desc">
+                                                <h3 class="b-400 f-14">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui</h3>
+                                                <p class="f-12">Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__noti-item navbar__noti-item--unread">
+                                        <a href="#" class="navbar__noti-link">
+                                            <img src="./assests/img/product-4.jpg" alt="">
+                                            <div class="navbar__noti-desc">
+                                                <h3 class="b-400 f-14">Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa</h3>
+                                                <p class="f-12">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="navbar__noti-item navbar__noti-item--unread">
+                                        <a href="#" class="navbar__noti-link">
+                                            <img src="./assests/img/product-5.jpg" alt="">
+                                            <div class="navbar__noti-desc">
+                                                <h3 class="b-400 f-14">Nulla quis lorem ut libero malesuada feugiat. Praesent sapien massa</h3>
+                                                <p class="f-12">Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="navbar__noti-footer">
+                                    <a href="#">
+                                        <h3 class="f-15 b-400">Xem tất cả</h3>
+                                    </a>
+                                </footer>
+                            </div>
+                            <!-- End Notification Container -->
+
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#">
+                                <i class="f-16 fas fa-question-circle"></i>
+                                Trợ Giúp
+                            </a>
+                        </li>
+                        <li class="navbar__item navbar__item--separate b-500">
+                            <a id="reg-btn" href="#">Đăng Ký</a>
+                        </li>
+                        <li class="navbar__item b-500">
+                            <a id="login-btn" href="#">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Navbar -->
+
+                <!-- Search -->
+                <div class="header__with-search f-15">
+                    <!-- Logo -->
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-img">
+                            <img src="./assests/img/logo-shop.png" alt="Shop">
+                        </a>
+                    </div>
+
+                    <!-- Search -->
+                    <div class="header__search">
+                        <input type="text" class="search__input" placeholder="Tìm trong Shop này">
+                        <div class="search__history">
+                            <header class="history__header">
+                                <h4 class="b-300">Lịch sử tìm kiếm</h4>
+                            </header>
+                            <div class="history__content">
+                                <a href="#" class="b-300 history__content-item">iPhone 13 Pro Max</a>
+                                <a href="#" class="b-300 history__content-item">iPad Mini 6</a>
+                                <a href="#" class="b-300 history__content-item">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</a>
+                            </div>
+                        </div>
+                        <div class="search__select">
+                            <span class="b-400">Trong Shop</span>
+                            <i class="b-600 fas fa-chevron-down"></i>
+                            <div class="search__option">
+                                <div class="search__option-item">
+                                    <span class="b-400">Trong Shop</span>
+                                    <i class="fas fa-check b-600 option__item--checked"></i>
+                                </div>
+                                <div class="search__option-item">
+                                    <span class="b-400">Ngoài Shop</span>
+                                    <i class="fas fa-check b-600 option__item--none"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="search__btn s-btn--primary">
+                                <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="header__cart">
+                        <a href="#" class="header__cart-link cart__main--show f-26">
+                            <i class="fas fa-shopping-cart cart__badge">
+                                <span class="cart__badge--show f-16 b-300">10</span>
+                            </i>
+
+                            <div class="cart__main">
+                                <div class="cart__main--fill f-14 b-300">
+                                    <div class="cart__header">
+                                        <h4 class="cart__test b-300">Sản phẩm mới thêm</h4>
+                                    </div>
+                                    <div class="cart__container">
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-3.jpg" alt="Ốp lưng samsung in hình diorr, supreme" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Ốp lưng samsung in hình diorr, supreme
+                                            </span>
+                                            <span class="cart__item-cost">30.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-18.jpg" alt="Kem dưỡng da, trị mụn đầu đen, mụn nhám, mụn cóc các loại mụn" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Kem dưỡng da, trị mụn đầu đen, mụn nhám, mụn cóc các loại mụn
+                                            </span>
+                                            <span class="cart__item-cost">130.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-7.jpg" alt="Điện thoại nổ BKAV màn hình to sắc nét, pin trâu" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Điện thoại nổ BKAV màn hình to sắc nét, pin trâu
+                                            </span>
+                                            <span class="cart__item-cost">3.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-16.jpg" alt="Áo khoác lông cừu mặc mùa hè, tránh nắng, chống tia UV made in Đông Lào" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Áo khoác lông cừu mặc mùa hè, tránh nắng, chống tia UV made in Đông Lào
+                                            </span>
+                                            <span class="cart__item-cost">300.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                        <div class="cart__container-list">
+                                            <img src="./assests/img/product-8.jpg" alt="Túi LV da cá sấu super fake loại 1 màu hồng nam tính" class="cart__item-img">
+                                            <span class="cart__item-desc">
+                                                Túi LV da cá sấu super fake loại 1 màu hồng nam tính
+                                            </span>
+                                            <span class="cart__item-cost">3.000.600 đ</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart__footer">
+                                        <button class="s-btn s-btn--primary f-14 b-400">Xem giỏ hàng</button>
+                                    </div>
+                                </div>
+                                <div class="cart__main--empty">
+                                    <i class="fas fa-dolly"></i>
+                                    <h2 class="f-26 b-400">Giỏ hàng đang trống</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End Search -->
+            </div>
+        </header>
+        <div style="height:1000px;"></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal__container">
+
+            <!-- Login -->
+            <div class="auth f-16" id="login">
+                <div class="auth__header">
+                    <span class="f-20 b-400">Đăng ký</span>
+                    <a href="#" class="f-15 b-500">Đăng nhập</a>
+                </div>
+                <div class="auth__form">
+                    <input type="text" class="auth__form-input" placeholder="Tên đăng nhập">
+                    <input type="password" class="auth__form-input" placeholder="Mật khẩu">
+                    <div class="auth__form-assist f-14">
+                        <a class="assist__forget assist__forget--separate" href="#">Quên mật khẩu</a>
+                        <a class="assist__help" href="#">Cần trợ giúp?</a>
+                    </div>
+                    <div class="auth_form-btn">
+                        <button class="s-btn">TRỞ LẠI</button>
+                        <button class="s-btn s-btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth__socials">
+                    <button class="s-btn auth__socials-item auth__socials-item--facebook">
+                        <i class="socials__icon f-22 fab fa-facebook-square" f-20></i>
+                        <span class="socials__desc f-14">Đăng nhập với Facebook</span>
+                    </button>
+                    <button class="s-btn auth__socials-item auth__socials-item--google">
+                        <i class="socials__icon f-22 fab fa-google"></i>
+                        <span class="socials__desc f-14">Đăng nhập với Google</span>
+                    </button>
+                </div>
+            </div>
+            <!-- End Login -->
+
+            <!-- Register -->
+            <div class="auth f-16" id="reg">
+                <div class="auth__header">
+                    <span class="f-20 b-400">Đăng nhập</span>
+                    <a href="#" class="f-15 b-500">Đăng ký</a>
+                </div>
+                <div class="auth__form">
+                    <input type="text" class="auth__form-input" placeholder="Tên đăng nhập">
+                    <input type="password" class="auth__form-input" placeholder="Mật khẩu">
+                    <input type="password" class="auth__form-input" placeholder="Nhập lại mật khẩu">
+                    <div class="auth__form-policy f-14">
+                        Bằng việc đăng ký, bạn đã đồng ý với Shop về 
+                        <a href="#">Điều khoản dịch vụ</a> & 
+                        <a href="#">Chính sách bảo mật</a>
+                    </div>
+                    <div class="auth_form-btn">
+                        <button class="s-btn">TRỞ LẠI</button>
+                        <button class="s-btn s-btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth__socials">
+                    <button class="s-btn auth__socials-item auth__socials-item--facebook">
+                        <i class="socials__icon f-22 fab fa-facebook-square" f-20></i>
+                        <span class="socials__desc f-14">Kết nối với Facebook</span>
+                    </button>
+                    <button class="s-btn auth__socials-item auth__socials-item--google">
+                        <i class="socials__icon f-22 fab fa-google"></i>
+                        <span class="socials__desc f-14">Kết nối với Google</span>
+                    </button>
+                </div>
+            </div>
+            <!-- End Register -->
+
+        </div>
+    </div>
+    <!-- End Modal -->
+
+</body>
+</html>
