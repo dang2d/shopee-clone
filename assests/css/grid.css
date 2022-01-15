@@ -148,7 +148,6 @@
         margin-left: -8px;
         margin-right: -8px;
     }
-}
 
     .col {
         padding-left: 8px;
@@ -271,6 +270,7 @@
         margin-left: 91.66667%;
     }
     /* End Offset for Tablet */
+}
 
 /* Tablet to PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -285,7 +285,6 @@
         margin-left: -5px;
         margin-right: -5px;
     }
-}
 
     .col {
         padding-left: 5px;
@@ -417,6 +416,7 @@
         margin-left: 91.66667%;
     }
     /* End Offset for PC */
+}
 
 /* PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {

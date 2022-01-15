@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./assests/css/common.css">
     <link rel="stylesheet" href="./assests/css/main.css">
     <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./assests/img/favicon.png" type="image/x-icon">
 </head>
@@ -20,7 +21,7 @@
             <div class="grid wide">
 
                 <!-- Navigation bar -->
-                <nav class="navbar row f-15 b-300">
+                <nav class="navbar hide-on-mobile-tablet row f-15 b-300">
                     <ul class="navbar__list">
                         <li class="navbar__item navbar__item--separate navbar__item-qr--show">
                             <a href="#">Vào cửa hàng trên ứng dụng</a>
@@ -282,7 +283,7 @@
             <div class="grid wide">
                 <div class="row">
                     <!-- Category -->
-                    <div class="col l-2">
+                    <div class="col l-2 m-0 c-0">
                         <div class="main__category">
                             <div class="main__category-img">
                                 <div class="category__img-bg">
@@ -322,9 +323,9 @@
                     <!-- End Category -->
 
                     <!-- Product details -->
-                    <div class="col l-10">
+                    <div class="col l-10 m-12 c-12">
                         <div class="main__product">
-                            <div class="sort__list">
+                            <div class="sort__list hide-on-mobile-tablet">
                                 <span class="sort__list-text">Sắp xếp theo</span>
                                 <button class="s-btn sort__list-item s-btn--primary">Phổ Biến</button>
                                 <button class="s-btn sort__list-item">Mới Nhất</button>
@@ -344,9 +345,22 @@
                                     <button class="s-btn page__arrow-arrow">&gt;</button>
                                 </div>
                             </div>
+                            <div class="sort__list hide-on-pc">
+                                <div class="sort__list-item">Phổ Biến</div>
+                                <div class="sort__list-item">Mới Nhất</div>
+                                <div class="sort__list-item">Bán Chạy</div>
+                                <div class="sort__list-selection">
+                                    <span>Giá</span>
+                                    <span><i class="fas fa-sort"></i></span>
+                                    <div class="list__selection">
+                                        <div class="list__selection-option">Giá: Thấp đến Cao</div>
+                                        <div class="list__selection-option">Giá: Cao đến Thấp</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="product__container grid">
                                 <div class="row">
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -388,7 +402,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -430,7 +444,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -472,7 +486,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -514,7 +528,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -556,7 +570,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -598,7 +612,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -640,7 +654,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -682,7 +696,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -724,7 +738,7 @@
                                             </a>
                                         </div>
                                     </div>
-                                    <div class="col l-2-4">
+                                    <div class="col l-2-4 m-4 c-12">
                                         <div class="product__container-item f-15">
                                             <a href="#" class="product__container-item-link f-15">
                                                 <div class="container__item-img">
@@ -770,39 +784,43 @@
 
                             </div>
                             <div class="product__pagination f-20">
-                                <ul class="product__pagination-list">
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </a>
-                                    </li>
-                                    <li class="product__pagination-item product__pagination-item--active">
-                                        <a href="#" class="product__pagination-link">1</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">2</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">3</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">4</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">5</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">...</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">14</a>
-                                    </li>
-                                    <li class="product__pagination-item">
-                                        <a href="#" class="product__pagination-link">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div class="row">
+                                    <div class="col l-10 m-12 c-12">
+                                        <ul class="product__pagination-list">
+                                            <li class="product__pagination-item">
+                                                <a href="#" class="product__pagination-link">
+                                                    <i class="fas fa-chevron-left"></i>
+                                                </a>
+                                            </li>
+                                            <li class="product__pagination-item product__pagination-item--active">
+                                                <a href="#" class="product__pagination-link">1</a>
+                                            </li>
+                                            <li class="product__pagination-item">
+                                                <a href="#" class="product__pagination-link">2</a>
+                                            </li>
+                                            <li class="product__pagination-item hide-on-mobile">
+                                                <a href="#" class="product__pagination-link">3</a>
+                                            </li>
+                                            <li class="product__pagination-item hide-on-mobile-tablet">
+                                                <a href="#" class="product__pagination-link">4</a>
+                                            </li>
+                                            <li class="product__pagination-item hide-on-mobile-tablet">
+                                                <a href="#" class="product__pagination-link">5</a>
+                                            </li>
+                                            <li class="product__pagination-item">
+                                                <a href="#" class="product__pagination-link">...</a>
+                                            </li>
+                                            <li class="product__pagination-item">
+                                                <a href="#" class="product__pagination-link">14</a>
+                                            </li>
+                                            <li class="product__pagination-item">
+                                                <a href="#" class="product__pagination-link">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
