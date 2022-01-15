@@ -1,4 +1,6 @@
 /* Font Size */
+.f-08 {font-size: 0.8rem !important;}
+
 .f-12 {font-size: 1.2rem !important;}
 
 .f-13 {font-size: 1.3rem !important;}
@@ -37,9 +39,20 @@
     height: 36px;
     padding: 0;
     line-height: 1.6rem;
+    cursor: pointer;
+    border-radius: 2px;
+    outline: none;
+    border: none;
 }
 
 .s-btn--primary {
     background: var(--primary) !important;
-    color: #fff;
+    color: #fff !important;
+}
+
+.s-btn--disabled {
+    background: #fff !important;
+    color: #d0d0d0 !important;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    cursor: default !important;
 }
