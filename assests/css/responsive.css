@@ -51,7 +51,8 @@
     }
 
     .header__cart {
-        width: 60px;
+        width: unset;
+        padding-left: 20px;
         justify-content: right;
     }
 
@@ -65,6 +66,12 @@
 @media (max-width: 739px) {
     .hide-on-mobile {
         display: none;
+    }
+    .header {
+        padding: 0 10px;
+    }
+    .main__container {
+        padding: 0 10px;
     }
 
     .product__pagincation-item {
